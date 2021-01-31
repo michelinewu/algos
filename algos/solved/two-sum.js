@@ -35,7 +35,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
+const twoSum = (nums, target) => {
 
   let indices = []
 
@@ -49,4 +49,4 @@ var twoSum = function(nums, target) {
       }
   }
   return indices
-};
+}
